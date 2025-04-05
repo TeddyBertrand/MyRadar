@@ -23,7 +23,7 @@ To run the game, you need to compile the project using the provided `Makefile`. 
 
 3. **Run the game**:
     ```bash
-    ./my_radar <path_to_script>
+    ./my_radar <path_to_file>
     ```
 
     If you need help, use the `-h` option:
@@ -56,14 +56,14 @@ To run the game, you need to compile the project using the provided `Makefile`. 
 
 ### Command Line Options
 
-- **`<path_to_script>`**: Path to the simulation script.  
+- **`<path_to_script>`**: Path to the file with tower and planes.
 - **`-h`**: Displays help and usage instructions.
 
 ### Example Commands:
 
 1. **Run the game**:
     ```bash
-    ./my_radar scripts/example.rdr
+    ./my_radar planes.txt
     ```
 
 2. **Display Help**:
@@ -72,12 +72,10 @@ To run the game, you need to compile the project using the provided `Makefile`. 
     ```
 
 ## Help Output Example:
-```text
+
 Air traffic simulation panel
 USAGE
-./my_radar [OPTIONS] path_to_script
-path_to_script The path to the script file.
-OPTIONS
+./my_radar [FILE]
 -h print the usage and quit.
 USER INTERACTIONS
 `L' key enable/disable hitboxes and areas.
