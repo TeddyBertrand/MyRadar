@@ -1,0 +1,27 @@
+Bienvenu dans my radar in space !
+
+Dans ce projet vous allez pouvoir voir une simulation de collision entre avions. 
+Si deux avions se collisionnent, ils disparaissent.
+Si ces deux avions sont sous une tour de controle, ils continuent leur chemin.
+Les avions ont une vitesse et un délai d'apparission défini.
+Les tours ont un rayon défini.
+
+Pour lancer le jeu :
+
+./my_radar <le nom ou le path vers le fichier issu du générateur python "generator.py">
+./my_radar -h (help)
+
+Controles : 
+
+L pour afficher/enlever les hitboxs des sprites.
+S pour afficher/enlever les sprites.
+R pour ralentir le temps.
+
+Crédits :
+
+Teddy pour le menu
+Teddy pour la gestion des hitboxs
+Teddy pour le déplacement des avions
+Teddy pour le système de changement de texture
+Teddy
+
